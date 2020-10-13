@@ -1,0 +1,1 @@
+/Users/loctv/Documents/QEMU/raspian/samba/python/samba/tests/krb5_credentials.py

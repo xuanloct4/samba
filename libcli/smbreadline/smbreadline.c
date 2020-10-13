@@ -24,6 +24,8 @@
 #include "system/select.h"
 #include "system/readline.h"
 #include "libcli/smbreadline/smbreadline.h"
+#include "readline/readline.h"
+
 
 #undef malloc
 
@@ -53,6 +55,7 @@ static bool smb_rl_done;
  * readline.so has it
  */
 extern int rl_done;
+extern Function *rl_event_hook;
 #endif
 
 void smb_readline_done(void)
@@ -146,8 +149,12 @@ char *smb_readline(const char *prompt, void (*callback)(void),
 	}
 
 #ifdef HAVE_DECL_RL_EVENT_HOOK
-	if (callback)
-		rl_event_hook = (rl_hook_func_t *)callback;
+  if (callback)
+#if defined(_RL_FUNCTION_TYPEDEF)
+    rl_event_hook = (rl_hook_func_t *)callback;
+#else
+  rl_event_hook = (Function *)callback;
+#endif
 #endif
 	ret = readline(prompt);
 	if (ret && *ret)

@@ -1,0 +1,1 @@
+/Users/loctv/Documents/QEMU/raspian/samba/python/samba/tests/blackbox/check_output.py

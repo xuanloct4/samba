@@ -1,0 +1,54 @@
+/Users/loctv/Documents/QEMU/raspian/samba/bin/default/source4/heimdal/lib/hx509/ks_p11.c.116.o: \
+  ../../source4/heimdal/lib/hx509/ks_p11.c \
+  ../../source4/heimdal/lib/hx509/hx_locl.h \
+  ../../source4/heimdal_build/config.h include/config.h \
+  ../../lib/replace/../replace/replace.h \
+  ../../source4/../lib/util/attr.h ../../source4/heimdal_build/roken.h \
+  ../../lib/replace/system/network.h \
+  ../../source4/heimdal/lib/roken/roken.h.in \
+  ../../source4/heimdal/lib/roken/roken-common.h \
+  ../../source4/heimdal/lib/roken/getarg.h \
+  ../../source4/heimdal/lib/roken/base64.h \
+  ../../source4/heimdal/lib/roken/hex.h \
+  ../../source4/heimdal/lib/com_err/com_err.h \
+  ../../source4/heimdal/lib/com_err/com_right.h \
+  ../../source4/heimdal/lib/roken/parse_units.h \
+  ../../source4/heimdal/lib/roken/parse_bytes.h \
+  ../../source4/heimdal_build/include/krb5-types.h \
+  ../../lib/replace/replace.h source4/heimdal/lib/asn1/rfc2459_asn1.h \
+  ../../source4/heimdal/lib/asn1/heim_asn1.h \
+  source4/heimdal/lib/asn1/cms_asn1.h \
+  source4/heimdal/lib/asn1/pkcs8_asn1.h \
+  source4/heimdal/lib/asn1/pkcs9_asn1.h \
+  source4/heimdal/lib/asn1/pkcs12_asn1.h \
+  source4/heimdal/lib/hx509/ocsp_asn1.h \
+  source4/heimdal/lib/hx509/pkcs10_asn1.h \
+  source4/heimdal/lib/asn1/asn1_err.h \
+  source4/heimdal/lib/asn1/pkinit_asn1.h \
+  source4/heimdal/lib/asn1/krb5_asn1.h \
+  ../../source4/heimdal/lib/asn1/der.h \
+  source4/heimdal/lib/asn1/der-protos.h \
+  ../../source4/heimdal_build/crypto-headers.h \
+  ../../source4/heimdal/lib/hcrypto/evp.h \
+  ../../source4/heimdal/lib/hcrypto/engine.h \
+  ../../source4/heimdal/lib/hcrypto/rsa.h \
+  ../../source4/heimdal/lib/hcrypto/bn.h \
+  ../../source4/heimdal/lib/hcrypto/dsa.h \
+  ../../source4/heimdal/lib/hcrypto/dh.h \
+  ../../source4/heimdal/lib/hcrypto/rand.h \
+  ../../source4/heimdal/lib/hcrypto/des.h \
+  ../../source4/heimdal/lib/hcrypto/md2.h \
+  ../../source4/heimdal/lib/hcrypto/md4.h \
+  ../../source4/heimdal/lib/hcrypto/md5.h \
+  ../../source4/heimdal/lib/hcrypto/sha.h \
+  ../../source4/heimdal/lib/hcrypto/rc4.h \
+  ../../source4/heimdal/lib/hcrypto/rc2.h \
+  ../../source4/heimdal/lib/hcrypto/aes.h \
+  ../../source4/heimdal/lib/hcrypto/ui.h \
+  ../../source4/heimdal/lib/hcrypto/pkcs12.h \
+  ../../source4/heimdal/lib/hcrypto/hmac.h \
+  ../../source4/heimdal/lib/hx509/hx509.h \
+  source4/heimdal/lib/hx509/hx509-protos.h \
+  source4/heimdal/lib/hx509/hx509_err.h \
+  ../../source4/heimdal/lib/hx509/sel.h \
+  source4/heimdal/lib/hx509/hx509-private.h
