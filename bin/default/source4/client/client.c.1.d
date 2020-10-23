@@ -57,6 +57,13 @@
   ../../lib/replace/system/filesys.h \
   ../../source4/../lib/util/dlinklist.h \
   ../../lib/replace/system/readline.h \
+  /usr/local/opt/readline/include/readline/readline.h \
+  /usr/local/opt/readline/include/readline/rlstdc.h \
+  /usr/local/opt/readline/include/readline/rltypedefs.h \
+  /usr/local/opt/readline/include/readline/keymaps.h \
+  /usr/local/opt/readline/include/readline/chardefs.h \
+  /usr/local/opt/readline/include/readline/tilde.h \
+  /usr/local/opt/readline/include/readline/history.h \
   ../../auth/credentials/credentials.h ../../auth/gensec/gensec.h \
   ../../source4/libcli/resolve/resolve.h \
   ../../source4/../libcli/nbt/libnbt.h source4/libcli/resolve/proto.h \

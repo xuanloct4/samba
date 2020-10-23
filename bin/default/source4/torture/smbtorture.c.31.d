@@ -26,6 +26,13 @@
   ../../source4/../lib/util/setid.h \
   ../../source4/lib/cmdline/popt_common.h ../../third_party/popt/popt.h \
   ../../lib/replace/system/filesys.h ../../lib/replace/system/readline.h \
+  /usr/local/opt/readline/include/readline/readline.h \
+  /usr/local/opt/readline/include/readline/rlstdc.h \
+  /usr/local/opt/readline/include/readline/rltypedefs.h \
+  /usr/local/opt/readline/include/readline/keymaps.h \
+  /usr/local/opt/readline/include/readline/chardefs.h \
+  /usr/local/opt/readline/include/readline/tilde.h \
+  /usr/local/opt/readline/include/readline/history.h \
   ../../source4/../libcli/smbreadline/smbreadline.h \
   ../../source4/libcli/libcli.h librpc/gen_ndr/nbt.h \
   librpc/gen_ndr/misc.h librpc/gen_ndr/security.h \

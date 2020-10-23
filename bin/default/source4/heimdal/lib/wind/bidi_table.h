@@ -1,5 +1,5 @@
 /* /Users/loctv/Documents/QEMU/raspian/samba/bin/default/source4/heimdal/lib/wind/bidi_table.h */
-/* Automatically generated at 2020-10-14T01:06:52.949800 */
+/* Automatically generated at 2020-10-23T20:51:56.731249 */
 
 #ifndef BIDI_TABLE_H
 #define BIDI_TABLE_H 1

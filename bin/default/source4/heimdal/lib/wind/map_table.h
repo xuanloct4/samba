@@ -1,5 +1,5 @@
 /* /Users/loctv/Documents/QEMU/raspian/samba/bin/default/source4/heimdal/lib/wind/map_table.h */
-/* Automatically generated at 2020-10-14T01:06:52.949592 */
+/* Automatically generated at 2020-10-23T20:51:56.726136 */
 
 #ifndef MAP_TABLE_H
 #define MAP_TABLE_H 1

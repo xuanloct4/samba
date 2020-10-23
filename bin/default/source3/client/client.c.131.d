@@ -73,6 +73,13 @@
   ../../bin/default/librpc/gen_ndr/srvsvc.h librpc/gen_ndr/svcctl.h \
   ../../source3/../lib/util/select.h ../../lib/replace/system/select.h \
   ../../lib/replace/system/readline.h \
+  /usr/local/opt/readline/include/readline/readline.h \
+  /usr/local/opt/readline/include/readline/rlstdc.h \
+  /usr/local/opt/readline/include/readline/rltypedefs.h \
+  /usr/local/opt/readline/include/readline/keymaps.h \
+  /usr/local/opt/readline/include/readline/chardefs.h \
+  /usr/local/opt/readline/include/readline/tilde.h \
+  /usr/local/opt/readline/include/readline/history.h \
   ../../source3/../libcli/smbreadline/smbreadline.h \
   ../../source3/../libcli/security/security.h \
   ../../libcli/security/dom_sid.h ../../libcli/security/secace.h \

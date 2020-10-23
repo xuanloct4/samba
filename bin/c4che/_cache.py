@@ -1,3 +1,3 @@
-BINDIR = '/opt/samba/bin'
-LIBDIR = '/opt/samba/lib'
-PREFIX = '/opt/samba'
+BINDIR = '/Users/loctv/Documents/QEMU/raspian/samba/build/bin'
+LIBDIR = '/Users/loctv/Documents/QEMU/raspian/samba/build/lib'
+PREFIX = '/Users/loctv/Documents/QEMU/raspian/samba/build'

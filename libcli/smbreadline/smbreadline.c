@@ -55,7 +55,6 @@ static bool smb_rl_done;
  * readline.so has it
  */
 extern int rl_done;
-extern Function *rl_event_hook;
 #endif
 
 void smb_readline_done(void)

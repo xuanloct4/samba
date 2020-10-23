@@ -6,9 +6,9 @@ After=network.target nmb.service
 [Service]
 Type=notify
 NotifyAccess=all
-PIDFile=/opt/samba/var/run/winbindd.pid
-EnvironmentFile=-/opt/samba/etc/sysconfig/samba
-ExecStart=/opt/samba/sbin/winbindd --foreground --no-process-group "$WINBINDOPTIONS"
+PIDFile=/Users/loctv/Documents/QEMU/raspian/samba/build/var/run/winbindd.pid
+EnvironmentFile=-/Users/loctv/Documents/QEMU/raspian/samba/build/etc/sysconfig/samba
+ExecStart=/Users/loctv/Documents/QEMU/raspian/samba/build/sbin/winbindd --foreground --no-process-group "$WINBINDOPTIONS"
 ExecReload=/bin/kill -HUP $MAINPID
 LimitCORE=infinity
 

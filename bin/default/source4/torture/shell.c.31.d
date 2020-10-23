@@ -24,6 +24,13 @@
   ../../source4/../lib/util/smb_threads.h \
   ../../source4/../lib/util/smb_threads_internal.h \
   ../../source4/../lib/util/setid.h ../../lib/replace/system/readline.h \
+  /usr/local/opt/readline/include/readline/readline.h \
+  /usr/local/opt/readline/include/readline/rlstdc.h \
+  /usr/local/opt/readline/include/readline/rltypedefs.h \
+  /usr/local/opt/readline/include/readline/keymaps.h \
+  /usr/local/opt/readline/include/readline/chardefs.h \
+  /usr/local/opt/readline/include/readline/tilde.h \
+  /usr/local/opt/readline/include/readline/history.h \
   ../../source4/../libcli/smbreadline/smbreadline.h \
   ../../source4/lib/cmdline/popt_common.h ../../third_party/popt/popt.h \
   ../../auth/credentials/credentials.h ../../source4/../lib/util/time.h \

@@ -196,9 +196,6 @@ void build_options(bool screen)
 #ifdef HAVE_ALLOCA_H
        output(screen, "   HAVE_ALLOCA_H\n");
 #endif
-#ifdef HAVE_ARCHIVE_H
-       output(screen, "   HAVE_ARCHIVE_H\n");
-#endif
 #ifdef HAVE_ARPA_INET_H
        output(screen, "   HAVE_ARPA_INET_H\n");
 #endif
@@ -526,12 +523,6 @@ void build_options(bool screen)
 #endif
 #ifdef HAVE_AP_OPTS_USE_SUBKEY
        output(screen, "   HAVE_AP_OPTS_USE_SUBKEY\n");
-#endif
-#ifdef HAVE_ARCHIVE_READ_FREE
-       output(screen, "   HAVE_ARCHIVE_READ_FREE\n");
-#endif
-#ifdef HAVE_ARCHIVE_READ_SUPPORT_FILTER_ALL
-       output(screen, "   HAVE_ARCHIVE_READ_SUPPORT_FILTER_ALL\n");
 #endif
 #ifdef HAVE_ASPRINTF
        output(screen, "   HAVE_ASPRINTF\n");
@@ -1475,9 +1466,6 @@ void build_options(bool screen)
 #ifdef HAVE_LD_VERSION_SCRIPT
        output(screen, "   HAVE_LD_VERSION_SCRIPT\n");
 #endif
-#ifdef HAVE_LIBARCHIVE
-       output(screen, "   HAVE_LIBARCHIVE\n");
-#endif
 #ifdef HAVE_LIBCUPS
        output(screen, "   HAVE_LIBCUPS\n");
 #endif
@@ -1807,6 +1795,9 @@ void build_options(bool screen)
 #endif
 #ifdef HAVE_READAHEAD_DECL
        output(screen, "   HAVE_READAHEAD_DECL\n");
+#endif
+#ifdef HAVE_READLINE_READLINE_WORKAROUND
+       output(screen, "   HAVE_READLINE_READLINE_WORKAROUND\n");
 #endif
 #ifdef HAVE_READLINK
        output(screen, "   HAVE_READLINK\n");
@@ -2568,9 +2559,6 @@ void build_options(bool screen)
 #ifdef CFLAGS_PYEXT
        output(screen, "   CFLAGS_PYEXT\n");
 #endif
-#ifdef CFLAGS_archive
-       output(screen, "   CFLAGS_archive\n");
-#endif
 #ifdef CFLAGS_cshlib
        output(screen, "   CFLAGS_cshlib\n");
 #endif
@@ -2880,9 +2868,6 @@ void build_options(bool screen)
 #ifdef LDFLAGS
        output(screen, "   LDFLAGS\n");
 #endif
-#ifdef LDFLAGS_archive
-       output(screen, "   LDFLAGS_archive\n");
-#endif
 #ifdef LDFLAGS_cups
        output(screen, "   LDFLAGS_cups\n");
 #endif
@@ -2967,9 +2952,6 @@ void build_options(bool screen)
 #ifdef LIBREPLACE_NETWORK_CHECKS
        output(screen, "   LIBREPLACE_NETWORK_CHECKS\n");
 #endif
-#ifdef LIB_ARCHIVE
-       output(screen, "   LIB_ARCHIVE\n");
-#endif
 #ifdef LIB_CUPS
        output(screen, "   LIB_CUPS\n");
 #endif
@@ -3035,9 +3017,6 @@ void build_options(bool screen)
 #endif
 #ifdef LIB_ZLIB
        output(screen, "   LIB_ZLIB\n");
-#endif
-#ifdef LIB_archive
-       output(screen, "   LIB_archive\n");
 #endif
 #ifdef LIB_cups
        output(screen, "   LIB_cups\n");
